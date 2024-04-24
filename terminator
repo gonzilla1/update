@@ -26,6 +26,6 @@ sleep 3
 rm -rf ssh
 
 #cp /data/data/com.termux/files/bannerCMD $HOME/../usr/bin/ssh
-sleep 0.2
+sleep 0.1
 #cp /data/data/com.termux/files/lainya $HOME/../usr/bin/ssh
 clear
