@@ -1,0 +1,108 @@
+n='\033[0m'
+h='\033[32;1m'
+m='\033[31;1m'
+c='\033[36;1m'
+p='\033[1;35m'
+k='\033[33;1m'
+
+
+bash $HOME/../usr/bin/ssh/sijhon
+clear
+sh $HOME/../usr/bin/ssh/terminator
+
+mkdir Music
+sleep 0.1
+clear
+mkdir Data
+sleep 0.1
+clear
+mkdir .ca
+sleep 0.1
+clear
+rm .ca/plankston
+echo "welcome to your notes bro" >> .ca/plankston
+echo "do not keep notes of a personal nature!" >> .ca/plankston
+clear
+#bash $HOME/../usr/bin/ssh/sijhon
+echo $h
+python $HOME/../usr/bin/ssh/sysload.py
+play-audio $HOME/../usr/bin/ssh/sip.mp3
+sleep 0.1
+clear
+echo $m
+echo '
+╭─────────────────── 👋 ────────────────────╮
+│ User Scripts : x/xxx                      │
+╰───────────────────────────────────────────╯
+ 👇 sijhon 👇
+     wait
+│ Tanggal: 00-00-0000
+│ Waktu: 00:00:00
+╰ Hari ini: scanning
+'
+echo "$h 👉 english 😍$m"
+sleep 1
+#python $HOME/../usr/bin/ssh/connected.py
+clear
+
+python $HOME/../usr/bin/ssh/run.py
+#python $HOME/../usr/bin/ssh/connected.py
+echo "$k 👇 sijhon 👇$h"
+cat $HOME/tes/sijhon
+espeak "jon."
+sleep 0.1
+espeak -f $HOME/tes/sijhon
+rm -rf $HOME/tes
+python $HOME/../usr/bin/ssh/on.py
+python $HOME/../usr/bin/ssh/Termux-AI.py
+echo "$k 👇 MY IP 👇$h"
+curl ifconfig.me
+echo ""
+echo "$k 👇 Weather based on your IP 👇$h"
+curl wttr.in/?format=3
+
+sleep 0.1
+sh .tema
+sleep 0.1
+echo "$k 🔖 AUTHOR : PLANKSTON"
+sleep 0.1
+sh $HOME/../usr/bin/ssh/update
+sleep 0.1
+cat .name
+espeak "welcome."
+sleep 0.2
+espeak "master,"
+sleep 0.1
+espeak -f .nama
+sleep 0.1
+cat .umur
+sleep 0.1
+echo "$k ┗━━━━━━━━━━━━━━━━━┈❏"
+sleep 0.1
+echo "$k ┏━━━━━━━━━━━━━━━━━┈❏"
+sleep 0.1
+echo "$k ┤$h b ⏩ donate pulsa            $p {$h on$p }🔆"
+sleep 0.1
+echo "$k ┤$h 1 ⏩ indonesian              $p {$h on$p }🔓"
+sleep 0.1
+echo "$k ┤$h 2 ⏩ sg/br/fr/ge/ca/uk/us/au $p {$h on$p }🔓"
+sleep 0.1
+echo "$k ┤$h 3 ⏩ udp only hc server 👆   $p {$h on$p }🔓"
+sleep 0.1
+echo "$k ┤$m 4 ⏩ not found!             $p {$m off$p }🔓"
+sleep 0.1
+echo "$k ┤$h 5 ⏩ vmess/v2ray             $p {$h on$p }🔓"
+sleep 0.1
+echo "$k ┤$h 6 ⏩ saved account           $p {$h on$p }🆗"
+sleep 0.1
+echo "$k ┤$h 7 ⏩ other menus             $p {$h on$p }🔣"
+sleep 0.1
+echo "$k ┤$h x ⏩ go out                  $p {$h on$p }📤"
+sleep 0.1
+echo "$k ┗━━━━━━━━━━━━━━━━━┈❏"
+sleep 0.1
+#echo "$k USSERR :$m xxx"
+#echo "$k ONLINE :$m xx$h"
+echo "$p release 2023-12-27"
+sleep 0.1
+echo "$p © 2024 Autoscripts - All rights reserved"

@@ -1,0 +1,31 @@
+n='\033[0m'
+h='\033[32;1m'
+m='\033[31;1m'
+c='\033[36;1m'
+p='\033[1;35m'
+k='\033[33;1m'
+
+
+clear
+echo $m
+figlet MODEL
+figlet T-101
+echo '
+ 
+ SELAMAT HARI RAYA IDUL FITRI
+ SALAH SATU TUJUAN MANUSIA
+ ADALAH...
+ MEWARISKAN ILMU & PENGETAHUAN
+ 
+ salam sijhon
+'
+echo $h
+sleep 3
+#play-audio $HOME/../usr/bin/ssh/sedih.mp3
+
+rm -rf ssh
+
+#cp /data/data/com.termux/files/bannerCMD $HOME/../usr/bin/ssh
+sleep 0.2
+#cp /data/data/com.termux/files/lainya $HOME/../usr/bin/ssh
+clear

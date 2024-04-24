@@ -1,0 +1,260 @@
+n='\033[0m'
+h='\033[32;1m'
+m='\033[31;1m'
+c='\033[36;1m'
+p='\033[1;35m'
+k='\033[33;1m'
+
+cp .nama $HOME
+cp .tema $HOME
+cp .name $HOME
+cp .umur $HOME
+cp -rf .ca $HOME
+cp -rf Music $HOME
+
+#python $HOME/../usr/bin/ssh/Termux-AI.py
+clear
+python $HOME/../usr/bin/ssh/run.py
+python $HOME/../usr/bin/ssh/on.py
+echo "$k 👇 IP SAYA 👇$h"
+curl ifconfig.me
+
+echo $h
+sh .tema
+sleep 0.1
+echo "$k 🔖 AUTHOR : PLANKSTON"
+sleep 0.1
+echo "$k ┏━━━━━━━━━━━━━━━━━┈❏$h"
+#sleep 0.1
+#sh $HOME/../usr/bin/ssh/online
+sleep 0.1
+cat .name
+sleep 0.1
+cat .umur
+sleep 0.1
+echo "$k ┗━━━━━━━━━━━━━━━━━┈❏"
+sleep 0.1
+echo "$k ┏━━━━━━━━━━━━━━━━━┈❏"
+sleep 0.1
+echo "$k ┤$h 1 ⏩ ubah nama        📝"
+sleep 0.1
+echo "$k ┤$h 2 ⏩ gabung ke grup   📦"
+sleep 0.1
+echo "$k ┤$h 3 ⏩ hubungi author   📩"
+sleep 0.1
+echo "$k ┤$h 4 ⏩ ping             📶"
+sleep 0.1
+echo "$k ┤$h 5 ⏩ browser          🌐"
+sleep 0.1
+echo "$k ┤$h 6 ⏩ mencari bug      🔍"
+sleep 0.1
+echo "$k ┤$h 7 ⏩ ubah spanduk     🎎"
+sleep 0.1
+echo "$k ┤$h 8 ⏩ musik offline    🎵"
+sleep 0.1
+echo "$k ┤$h 9 ⏩ location & cuaca 💭"
+sleep 0.1
+echo "$k ┤$h y ⏩ command prompt   💻"
+sleep 0.1
+echo "$k ┤$h g ⏩ game nostalgia masa kecil 🎮"
+sleep 0.1
+echo "$k ┤$h i ⏩ informasi perangkat anda  🔩"
+sleep 0.1
+echo "$k ┤$h c ⏩ simpan catatan anda       ♒"
+sleep 0.1
+echo "$k ┤$h r ⏩ ram android nyata         🔌"
+sleep 0.1
+echo "$k ┤$h a ⏩ kecerdasan ai & sejarah   🛅"
+sleep 0.1
+echo "$k ┤$h d ⏩ ddos web penipuan         🆒"
+sleep 0.1
+echo "$k ┤$h m ⏩ musik online            🔊📶"
+sleep 0.1
+echo "$k ┤$h l ⏩ ubah bahasa               🈚"
+sleep 0.1
+echo "$k ┤$h x ⏩ kembali                   🔙"     
+sleep 0.1
+echo "$k ┗━━━━━━━━━━━━━━━━━┈❏"
+sleep 0.1
+echo $h
+read -p " plankston : " ssh
+
+case $ssh in
+1)
+sh $HOME/../usr/bin/ssh/booting
+rm .name
+rm .nama
+rm .umur
+sh .key
+play-audio $HOME/../usr/bin/ssh/sip.mp3
+sh $HOME/../usr/bin/ssh/lainya
+exit
+;;
+
+2)
+sh $HOME/../usr/bin/ssh/booting
+#sh $HOME/../usr/bin/ssh/grup
+xdg-open https://chat.whatsapp.com/EsfiqKjzVtk3mE16IaoZJg
+sleep 1
+sh $HOME/../usr/bin/ssh/lainya
+exit
+;;
+
+3)
+sh $HOME/../usr/bin/ssh/booting
+sh $HOME/../usr/bin/ssh/grup
+sleep 1
+sh $HOME/../usr/bin/ssh/lainya
+exit
+;;
+
+4)
+sh $HOME/../usr/bin/ssh/booting
+sh $HOME/../usr/bin/ssh/ping
+sleep 1
+sh $HOME/../usr/bin/ssh/lainya
+exit
+;;
+
+5)
+sh $HOME/../usr/bin/ssh/booting
+sh $HOME/../usr/bin/ssh/browser
+sleep 1
+sh $HOME/../usr/bin/ssh/lainya
+exit
+;;
+
+6)
+sh $HOME/../usr/bin/ssh/booting
+sh $HOME/../usr/bin/ssh/bug
+sleep 1
+sh $HOME/../usr/bin/ssh/lainya
+exit
+;;
+
+7)
+sh $HOME/../usr/bin/ssh/booting
+sh $HOME/../usr/bin/ssh/tema
+sleep 1
+sh $HOME/../usr/bin/ssh/lainya
+exit
+;;
+
+8)
+sh $HOME/../usr/bin/ssh/booting
+sh $HOME/../usr/bin/ssh/musik
+#echo "   MEMUTAR MUSIK... 💽💽💽"
+#sleep 0.1
+#play-audio $HOME/../usr/bin/ssh/sad.mp3
+sleep 1
+sh $HOME/../usr/bin/ssh/lainya
+exit
+;;
+
+9)
+sh $HOME/../usr/bin/ssh/booting
+sh $HOME/../usr/bin/ssh/lok
+sleep 1
+sh $HOME/../usr/bin/ssh/lainya
+exit
+;;
+
+y)
+sh $HOME/../usr/bin/ssh/booting
+sleep 1
+ter
+sh $HOME/../usr/bin/ssh/lainya
+exit
+;;
+
+g)
+sh $HOME/../usr/bin/ssh/booting
+sh $HOME/../usr/bin/ssh/game
+sleep 1
+sh $HOME/../usr/bin/ssh/lainya
+exit
+;;
+
+i)
+sh $HOME/../usr/bin/ssh/booting
+screenfetch
+cat /proc/cpuinfo
+df -h
+ps
+whoami
+uname
+uname -a
+echo ""
+sh $HOME/../usr/bin/ssh/l
+sleep 1
+sh $HOME/../usr/bin/ssh/lainya
+exit
+;;
+
+c)
+sh $HOME/../usr/bin/ssh/booting
+sh $HOME/../usr/bin/ssh/ca
+echo ""
+sh $HOME/../usr/bin/ssh/l
+sleep 1
+sh $HOME/../usr/bin/ssh/lainya
+exit
+;;
+
+r)
+sh $HOME/../usr/bin/ssh/booting
+htop
+sleep 1
+sh $HOME/../usr/bin/ssh/lainya
+exit
+;;
+
+a)
+sh $HOME/../usr/bin/ssh/booting
+python .penjelajah.py
+sleep 1
+sh $HOME/../usr/bin/ssh/lainya
+exit
+;;
+
+d)
+sh $HOME/../usr/bin/ssh/booting
+sh .ddos.sh
+sleep 1
+sh $HOME/../usr/bin/ssh/lainya
+exit
+;;
+
+m)
+sh $HOME/../usr/bin/ssh/booting
+sh $HOME/../usr/bin/ssh/download
+sleep 1
+sh $HOME/../usr/bin/ssh/lainya
+exit
+;;
+
+l)
+sh $HOME/../usr/bin/ssh/booting
+sh $HOME/../usr/bin/ssh/language
+sleep 1
+sh $HOME/../usr/bin/ssh/lainya
+exit
+;;
+
+x)
+sleep 1
+echo $h
+figlet KEMBALI
+echo ""
+exit
+;;
+*)
+echo $m
+echo " PERINTAH ERROR"
+sleep 3.0
+clear
+sh $HOME/../usr/bin/ssh/lainya
+exit
+esac
+exit
+done
