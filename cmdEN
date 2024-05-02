@@ -87,11 +87,11 @@ echo "$k ┤$h 1 ⏩ indonesian              $p {$h on$p }🔓"
 sleep 0.1
 echo "$k ┤$h 2 ⏩ sg/br/fr/ge/ca/uk/us/au $p {$h on$p }🔓"
 sleep 0.1
-echo "$k ┤$h 3 ⏩ udp only hc server 👆   $p {$h on$p }🔓"
+echo "$k ┤$m 3 ⏩ udp only hc server 👆  $p {$m off$p }🔓"
 sleep 0.1
 echo "$k ┤$m 4 ⏩ not found!             $p {$m off$p }🔓"
 sleep 0.1
-echo "$k ┤$h 5 ⏩ vmess/v2ray             $p {$h on$p }🔓"
+echo "$k ┤$m 5 ⏩ vmess/v2ray            $p {$m off$p }🔓"
 sleep 0.1
 echo "$k ┤$h 6 ⏩ saved account           $p {$h on$p }🆗"
 sleep 0.1
