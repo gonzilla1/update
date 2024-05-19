@@ -1,8 +1,19 @@
-n='\033[0m'
+blk='\033[30;m' # Black - Regular
+red='\033[31;m' # Red
+grn='\033[32;m' # Green
+ylw='\033[33;m' # Yellow
+blu='\033[34;m' # Blue
+pur='\033[35;m' # Purple
+cyn='\033[36;m' # Cyan
+wht='\033[37;m' # White
+a='\033[30;0m'
 h='\033[32;1m'
 m='\033[31;1m'
 c='\033[36;1m'
 p='\033[1;35m'
 k='\033[33;1m'
 
-echo "$k ┏━━━━━━━━━━━━━━━━━┈❏$n UPDATE$m :$h 143 $h"
+green='\033[1;92m'
+redd='\033[1;91m'
+
+echo "$p ┃$blu [PENGGUNA] :$grn 1                       $p ┃"
