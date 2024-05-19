@@ -17,10 +17,10 @@ green='\033[1;92m'
 redd='\033[1;91m'
 
 echo ""
-echo "$wht 3k$blu  >$h  4koin"
-echo "$wht 5k$blu  >$h 10koin"
-echo "$wht 7k$blu  >$h 15koin"
-echo "$wht 10k$blu >$h 25koin"
+echo "$wht 3k$blu  >$h 200koin"
+echo "$wht 5k$blu  >$h 500koin"
+echo "$wht 7k$blu  >$h 750koin"
+echo "$wht 10k$blu >$h 1,250koin"
 echo $wht
 read -p "       masukan key : " key
 echo ""
@@ -31,12 +31,15 @@ sijhon)
 bash $HOME/../usr/bin/end
 echo ""
 echo "$h key kadaluarsa"
-#echo "$h koin sukses ditambah"
+#echo "$h koin 1,250 sukses ditambah"
+cp $HOME/../usr/bin/.pusat/pusat25 /data/data/com.termux/files/usr/bin/bot
 sleep 3
 echo $wht
 read -p "kembali ke menu" back
+cd
 rm -rf $HOME/cyb3r
 menu
+exit
 ;;
 *)
 echo ""
@@ -44,6 +47,7 @@ echo "$m koin gagal ditambah"
 sleep 3
 echo $wht
 read -p "kembali ke menu" back
+cd
 rm -rf $HOME/cyb3r
 menu
 exit
