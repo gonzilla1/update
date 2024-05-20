@@ -30,9 +30,7 @@ case $key in
 sijhon)
 bash $HOME/../usr/bin/end
 echo ""
-echo "$h key kadaluarsa"
-#echo "$h koin 1,250 sukses ditambah"
-#cp $HOME/../usr/bin/.pusat/pusat25 /data/data/com.termux/files/usr/bin/bot
+echo "$m key kadaluarsa"
 sleep 3
 echo $wht
 read -p "kembali ke menu" back
