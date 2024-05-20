@@ -20,7 +20,7 @@ echo ""
 echo "$wht 3k$blu  >$h 200koin"
 echo "$wht 5k$blu  >$h 500koin"
 echo "$wht 7k$blu  >$h 750koin"
-echo "$wht 10k$blu >$h 1,250koin"
+echo "$wht 10k$blu >$h 1,200koin"
 echo $wht
 read -p "       masukan key : " key
 echo ""
