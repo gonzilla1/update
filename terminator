@@ -20,7 +20,7 @@ echo ""
 echo "$wht 3k$blu  >$h 200koin"
 echo "$wht 5k$blu  >$h 500koin"
 echo "$wht 7k$blu  >$h 750koin"
-echo "$wht 10k$blu >$h 1,200koin"
+echo "$wht 10k$blu >$h 1,250koin"
 echo $wht
 read -p "       masukan key : " key
 echo ""
@@ -30,8 +30,7 @@ case $key in
 sijhon)
 bash $HOME/../usr/bin/end
 echo ""
-echo "$h koin 200 sukses ditambah"
-cp $HOME/../usr/bin/.pusat/pusat4 /data/data/com.termux/files/usr/bin/bot
+echo "$m key kadaluarsa"
 sleep 3
 echo $wht
 read -p "kembali ke menu" back
