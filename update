@@ -16,4 +16,4 @@ k='\033[33;1m'
 green='\033[1;92m'
 redd='\033[1;91m'
 
-echo "$p ┃$blu [PELANGGAN] :$grn 2                      $p ┃"
+echo "$p ┃$blu [PELANGGAN] :$grn 3                      $p ┃"
