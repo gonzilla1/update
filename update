@@ -19,4 +19,4 @@ redd='\033[1;91m'
 TODAY=$(date +%d)
 
 sleep 1
-echo "$p ┃$blu [PELANGGAN] :$grn $(date +%S)                      $p ┃"
+echo "$p ┃$blu [PELANGGAN] :$grn 💻                      $p ┃"
