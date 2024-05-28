@@ -16,4 +16,8 @@ k='\033[33;1m'
 green='\033[1;92m'
 redd='\033[1;91m'
 
-echo "$p ┃$blu [PELANGGAN] :$grn 9                      $p ┃"
+TODAY=$(date +%d)
+echo "$(date +%S)"
+
+
+echo "$p ┃$blu [ONLINE] :$grn $(date +%S)                        $p ┃"
