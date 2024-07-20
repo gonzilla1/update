@@ -17,15 +17,10 @@ green='\033[1;92m'
 redd='\033[1;91m'
 
 echo ""
-echo "$wht hubungi sijhon untuk mendapatkan key"
-echo "$h    wa.me/6289618602219"
-echo ""
-echo "$pur UNTUK SAAT INI KEY 100% FREE ya"
-echo ""
-echo "$wht 0k$blu  >$h 200koin"
-echo "$wht 0k$blu  >$h 500koin"
-echo "$wht 0k$blu  >$h 750koin"
-echo "$wht 0k$blu  >$h 1,250koin"
+echo "$wht 3k$blu  >$h 200koin"
+echo "$wht 5k$blu  >$h 500koin"
+echo "$wht 7k$blu  >$h 750koin"
+echo "$wht 10k$blu >$h 1,250koin"
 echo $wht
 read -p "       masukan key : " key
 echo ""
