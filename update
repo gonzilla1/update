@@ -20,6 +20,6 @@ ip=$(curl ifconfig.me)
 cuaca=$(curl wttr.in/?format=3)
 
 echo "$p ┃$blu [PELANGGAN] :$a id$m >$grn on$m __$a sg$m >$grn on     $p ┃"
-echo "$p ┃$wht notif :$grn semoga sukses selalu ya      $p ┃"
-echo "$p ┃$wht ip    :$grn $ip                $p ┃"
-echo "$p ┃$wht cuaca :$grn $cuaca         $p ┃"
+echo "$p ┃$wht notif 💬:$grn semoga sukses selalu ya    $p ┃"
+echo "$p ┃$wht ip    💻:$grn $ip              $p ┃"
+echo "$p ┃$wht cuaca 🔎:$grn $cuaca       $p ┃"
