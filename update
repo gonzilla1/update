@@ -16,4 +16,4 @@ k='\033[33;1m'
 green='\033[1;92m'
 redd='\033[1;91m'
 
-echo "$p ┃$blu [PELANGGAN] :$blu >$a id$blu >$grn on$blu __$a sg$blu >$grn on$blu < $p ┃"
+echo "$p ┃$blu [PELANGGAN] :$a id$m >$grn on$m __$a sg$m >$grn on     $p ┃"
