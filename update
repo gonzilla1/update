@@ -20,6 +20,7 @@ redd='\033[1;91m'
 #cuaca=$(curl wttr.in/?format=3)
 
 echo "$p ┃$blu [PELANGGAN] :$a id$m >$grn on$m __$a sg$m >$grn on     $p ┃"
+sleep 5
+echo "$p ┃$blu [PUBLIK SEDANG ONLINE] :$grn $(date +%S)          $p ┃"
 echo "$p ┃💬$grn jangan lupa istirahat              $p ┃"
-#echo "$p ┃$wht ip    💻:$grn $ip              $p ┃"
 #echo "$p ┃$wht cuaca 🔎:$grn $cuaca       $p ┃"
