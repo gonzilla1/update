@@ -32,10 +32,11 @@ echo ""
 echo "$wht [CHECKING...]"
 sleep 3
 case $key in
-sijhon)
+dataONkeyXyogaONprem)
 bash $HOME/../usr/bin/end
 echo ""
-echo "$m key kadaluarsa"
+echo "$h koin 500 sukses ditambah"
+cp $HOME/../usr/bin/.pusat/pusat10 /data/data/com.termux/files/usr/bin/bot
 sleep 3
 echo $wht
 read -p "kembali ke menu" back
