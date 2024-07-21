@@ -21,5 +21,5 @@ redd='\033[1;91m'
 
 echo "$p ┃$blu [PELANGGAN] :$a id$m >$grn on$m __$a sg$m >$grn on     $p ┃"
 echo "$p ┃$blu [NOMOR ID] :$grn $(date +%s)              $p ┃"
-echo "$p ┃💬$grn jangan lupa istirahat              $p ┃"
+echo "$p ┃💬$grn tkt & menyerah tdk ada dlm kamusku $p ┃"
 #echo "$p ┃$wht cuaca 🔎:$grn $cuaca       $p ┃"
