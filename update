@@ -20,6 +20,6 @@ redd='\033[1;91m'
 #cuaca=$(curl wttr.in/?format=3)
 
 echo "$p ┃$blu [PELANGGAN] :$a id$m >$m off$m __$a sg$m >$grn on    $p ┃"
-echo "$p ┃$blu [NOMOR ID] :$grn $(date +%s) ${a}power$m >$grn 7    $p ┃"
+echo "$p ┃$blu [NOMOR ID] :$grn $(date +%s) ${a}power$m >$grn 8    $p ┃"
 echo "$p ┃💬${grn}id akan dialihkan ke sg             $p ┃"
 #echo "$p ┃$wht cuaca 🔎:$grn $cuaca       $p ┃"
